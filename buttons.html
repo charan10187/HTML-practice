@@ -14,12 +14,24 @@
         <label for="username">username</label>
         <input type="text" placeholder="Enter text here" id="username"><br>
         <label for="age">age</label>
-        <input type="number" placeholder="Enter text here" id="age" minlength="18"><br>
+        <input type="number" placeholder="Enter text here" id="age" min="18" max="25"><br>
         <label for="Mobile No">Mobile No</label>
-        <input type="number" placeholder="Enter text here" id="Mobile No" pattern="[0-9]{10}" required><br>
+        <input type="tel" placeholder="Enter text here" id="Mobile No" pattern="[0-9]{10}" required><br>
         <label for="password">password</label>
         <input type="password" placeholder="create a password" id="password" required><br>
-        <input type="reset">
+        
+        <label for="feeling">feeling:</label><br>
+
+        <label for="like"   >like</label>
+        <input type="radio" id="like" value="like" name="feeling">
+        <label for="unlike" >unlike</label>
+        <input type="radio" id="unlike" value="ok" name="feeling" >
+        <label for="ok"     >ok</label>
+        <input type="radio" id="need to improve"  value="need to improve" name="feeling">
+        <label for="need to improve">need to improve</label>
+        <input type="radio" id="like" value="like" name="feeling"><br>
+        
+        <input type="reset"> 
         <input type="submit">
 
 
